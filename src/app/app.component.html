@@ -1,1 +1,17 @@
 <h1>Welcome to Angular!</h1>
+
+<div>
+  <h1>Data Binding</h1>
+  <h2>String Interpolation</h2>
+  <p>Hello,my name is {{firstName}}</p>
+  <br>
+  <h2>Property Binding</h2>
+  <button type="button" [disabled]="isUnchanged">Hello</button>
+  <br>
+  <img [src]="image" alt=""style="height:200px; width:250px">
+  <br>
+  <button (click)="onClick()">Data Binding</button>
+  <br>
+  <input [(ngModel)]="userOutput" type="text"><br>
+  {{userOutput}}
+</div>

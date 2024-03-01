@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
+
 import { FirstComponentComponent } from './first-component/first-component.component';
 
 @NgModule({
@@ -10,7 +12,8 @@ import { FirstComponentComponent } from './first-component/first-component.compo
     FirstComponentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

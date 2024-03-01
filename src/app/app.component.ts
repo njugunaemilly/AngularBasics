@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-app';
+  firstName = 'Emilly';
+  isUnchanged = false;
+  image = "assets/cat.jpg"
+
+  onClick(){
+    console.log("Thank you for visiting this webpage")
+  }
+
+  userOutput = ''
 }
