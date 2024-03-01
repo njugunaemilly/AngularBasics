@@ -4,9 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 
+import { FirstComponentComponent } from './first-component/first-component.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FirstComponentComponent
   ],
   imports: [
     BrowserModule,
