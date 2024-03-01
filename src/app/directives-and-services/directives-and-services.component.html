@@ -1,0 +1,20 @@
+<div class="container">
+    <h2>Structural Directives</h2>
+    <h3>ngIf</h3>
+    <div class="row">
+        <div class="col-md-12">
+            <button class="btn btn-success" (click)="greeting(true)">Hello</button>
+            <button class="btn btn-danger" (click)="greeting(false)">Goodbye</button>
+        </div>
+        <div>
+            <p *ngIf="isReturningUser">Hi, glad to have you here!</p>
+            <p *ngIf="!isReturningUser">Please come back again</p>
+        </div>
+    </div>
+    <div>
+        <h3>ngFor</h3>
+        <ul>
+          <li *ngFor="let user of users">{{ user }}</li>
+        </ul>
+    </div>
+</div>>
