@@ -1,0 +1,6 @@
+<div>
+    <h2>Parent component</h2>
+    <input type="text" [(ngModel)]="editorInParent">
+    <p>{{msgFromChild}}</p>
+</div>
+<app-child [editor]="editorInParent" (sendMessageEmitter)="receiveInput($event)"></app-child>
