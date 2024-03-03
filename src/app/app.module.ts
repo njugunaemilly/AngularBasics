@@ -8,6 +8,8 @@ import { FirstComponentComponent } from './first-component/first-component.compo
 import { DirectivesAndServicesComponent } from './directives-and-services/directives-and-services.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { LifecycleHooksParentComponent } from './lifecycle-hooks-parent/lifecycle-hooks-parent.component';
+import { LifecycleHooksChildComponent } from './lifecycle-hooks-child/lifecycle-hooks-child.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { ChildComponent } from './child/child.component';
     FirstComponentComponent,
     DirectivesAndServicesComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    LifecycleHooksParentComponent,
+    LifecycleHooksChildComponent
   ],
   imports: [
     BrowserModule,
