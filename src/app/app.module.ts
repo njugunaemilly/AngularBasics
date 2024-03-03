@@ -8,6 +8,7 @@ import { FirstComponentComponent } from './first-component/first-component.compo
 import { DirectivesAndServicesComponent } from './directives-and-services/directives-and-services.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { TemplateReferenceComponent } from './template-reference/template-reference.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ChildComponent } from './child/child.component';
     FirstComponentComponent,
     DirectivesAndServicesComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    TemplateReferenceComponent
   ],
   imports: [
     BrowserModule,
