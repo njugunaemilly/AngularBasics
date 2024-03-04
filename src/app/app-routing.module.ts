@@ -12,12 +12,12 @@ const routes: Routes = [
   },
 
   {
-    path: '/template-driven',
+    path: 'template-driven',
     component: TemplateDrivenFormsComponent,
   },
  
    {
-     path: '/reactive-forms',
+     path: 'reactive-forms',
      component: ReactiveFormsComponent,
     
    }

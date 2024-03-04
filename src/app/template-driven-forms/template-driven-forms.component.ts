@@ -12,6 +12,7 @@ export class TemplateDrivenFormsComponent implements OnInit{
   ngOnInit(): void {}
 
   onSubmit(myForm: any){
+    console.log("REad");
     this.myForm.resetForm()
   }
 

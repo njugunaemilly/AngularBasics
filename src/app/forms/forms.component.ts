@@ -16,6 +16,6 @@ export class FormsComponent implements OnInit{
     }
 
     goToModelDriven() {
-      this.router.navigate(['model-driven']);
+      this.router.navigate(['reactive-forms']);
     }
   }
