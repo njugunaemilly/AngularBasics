@@ -8,6 +8,8 @@ import { FirstComponentComponent } from './first-component/first-component.compo
 import { DirectivesAndServicesComponent } from './directives-and-services/directives-and-services.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { AngularApiComponent } from './angular-api/angular-api.component';
+import {  HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,11 +17,13 @@ import { ChildComponent } from './child/child.component';
     FirstComponentComponent,
     DirectivesAndServicesComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    AngularApiComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
