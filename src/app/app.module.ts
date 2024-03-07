@@ -8,6 +8,9 @@ import { FirstComponentComponent } from './first-component/first-component.compo
 import { DirectivesAndServicesComponent } from './directives-and-services/directives-and-services.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
+import { ReversePipePipe } from './reverse-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -16,6 +19,9 @@ import { SecondComponent } from './second/second.component';
     DirectivesAndServicesComponent,
     FirstComponent,
     SecondComponent
+    ParentComponent,
+    ChildComponent,
+    ReversePipePipe
   ],
   imports: [
     BrowserModule,
