@@ -10,6 +10,8 @@ import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { LifecycleHooksParentComponent } from './lifecycle-hooks-parent/lifecycle-hooks-parent.component';
+import { LifecycleHooksChildComponent } from './lifecycle-hooks-child/lifecycle-hooks-child.component';
 import { TemplateReferenceComponent } from './template-reference/template-reference.component';
 import { ReversePipePipe } from './reverse-pipe.pipe';
 
@@ -22,6 +24,8 @@ import { ReversePipePipe } from './reverse-pipe.pipe';
     SecondComponent
     ParentComponent,
     ChildComponent,
+    LifecycleHooksParentComponent,
+    LifecycleHooksChildComponent
     TemplateReferenceComponent
     ReversePipePipe
   ],

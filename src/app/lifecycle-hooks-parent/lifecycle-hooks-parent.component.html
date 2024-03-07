@@ -1,0 +1,7 @@
+<h2>Lifecycle Hooks Parent</h2>
+<button (click)="toggleChild()">Toggle Child</button>
+<input type="text" [(ngModel)]="firstName">
+<hr>
+
+<app-lifecycle-hooks-child *ngIf="isChild" [firstName]="firstName">
+    <h2 #parentContent>This is content from parent</h2></app-lifecycle-hooks-child>
