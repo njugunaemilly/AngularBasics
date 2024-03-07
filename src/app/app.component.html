@@ -17,7 +17,9 @@
   <input [(ngModel)]="userOutput" type="text"><br>
   {{userOutput}}
 </div>
+
 <br>
+<app-parent></app-parent>
 
 <app-template-reference></app-template-reference>
 
@@ -41,3 +43,4 @@
 <p>The reverse of Angular Development is: {{'Angular Development' | reversePipe }} </p>
 <br>
 <app-lifecycle-hooks-parent></app-lifecycle-hooks-parent>
+<router-outlet></router-outlet>
