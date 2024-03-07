@@ -10,6 +10,7 @@ import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { TemplateReferenceComponent } from './template-reference/template-reference.component';
 import { ReversePipePipe } from './reverse-pipe.pipe';
 
 @NgModule({
@@ -21,6 +22,7 @@ import { ReversePipePipe } from './reverse-pipe.pipe';
     SecondComponent
     ParentComponent,
     ChildComponent,
+    TemplateReferenceComponent
     ReversePipePipe
   ],
   imports: [
