@@ -12,6 +12,6 @@ export class DirectivesAndServicesComponent {
     this.isReturningUser = status;
   }
 
-  users: string[] = ['Dylan', 'Fiona', 'Vivian', 'Alden'];
+  users: string[] = ['Rose', 'Kian', 'Katnis', 'Rio'];
 
 }

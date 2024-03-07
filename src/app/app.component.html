@@ -2,8 +2,6 @@
 
 <hr>
 
-<app-directives-and-services></app-directives-and-services>
-
 <div>
   <h1>Data Binding</h1>
   <h2>String Interpolation</h2>
@@ -22,4 +20,27 @@
 
 <br>
 <app-parent></app-parent>
+
+<app-template-reference></app-template-reference>
+
+<h3>Services and dependency injection</h3>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <app-first></app-first>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <app-second></app-second>
+    </div>
+  </div>
+</div>
+<app-directives-and-services></app-directives-and-services>
+<br>
+<app-parent></app-parent>
+<br>
+<p>The reverse of Angular Development is: {{'Angular Development' | reversePipe }} </p>
+<br>
+<app-lifecycle-hooks-parent></app-lifecycle-hooks-parent>
 <router-outlet></router-outlet>
