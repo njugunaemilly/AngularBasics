@@ -1,0 +1,6 @@
+<div>
+    <h2>Template Reference Variable and ViewChild</h2>
+    <input type="text" #myInput ngModel>
+    <button [disabled]="myInput.value.length===0" (click)="sendInput(myInput)">Click</button>
+    <!-- <p>{{input}}</p> -->
+</div>
