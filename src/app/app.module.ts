@@ -25,23 +25,23 @@ import { ReversePipePipe } from './reverse-pipe.pipe';
     FirstComponentComponent,
     DirectivesAndServicesComponent,
     FirstComponent,
-    SecondComponent
+    SecondComponent,
     ParentComponent,
     ChildComponent,
     TemplateDrivenFormsComponent,
     FormsComponent,
-    ReactiveFormsComponent
-    AngularApiComponent
+    ReactiveFormsComponent,
+    AngularApiComponent,
     LifecycleHooksParentComponent,
-    LifecycleHooksChildComponent
-    TemplateReferenceComponent
+    LifecycleHooksChildComponent,
+    TemplateReferenceComponent,
     ReversePipePipe
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
     HttpClientModule
 
   ],
